@@ -1,0 +1,45 @@
+# Node.js files
+node_modules/
+.npmignore
+.yarn/
+npm-debug.log*
+yarn.lock
+
+# Build output
+public/build/
+build/
+
+# Database files
+# .env
+# config
+
+# IDE temporary/cache files
+.vscode/
+.idea/
+
+# Editor temporary/cache files (adjust based on your editor)
+*.swo
+*.log
+
+# OS specific temporary files
+Thumbs.db
+DS_Store
+
+# Testing tools
+coverage/
+jest/
+
+# Frontend specific (adjust based on your framework)
+# For React projects
+.cache/
+
+# Ignore all test files
+__tests__/**/*.+(js|jsx|ts|tsx)
+# Ignore all test.js files
+test.js
+
+# Ignore all spec.js files
+spec.js
+
+# Ignore all e2e.js/ts files
+e2e/**/*.+(js|ts)
